@@ -1,0 +1,72 @@
+/*
+    Theme Name: Spa
+    Theme URI: https://themeies.com
+    Author: Themeies
+    Author URI: https://themeies.com
+    Version: 1.0
+    Description: Spa is a Landing HTML5 Template.
+*/
+/*
+    Table of Context
+    -------------------------------
+    01.
+*/
+@import url('https://fonts.googleapis.com/css?family=gilroy:300i,400,500,700');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #6c6c6f;
+  background-color: #fff;
+  font-family: 'gilroy', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+a {
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rufina', serif;
+  font-weight: 700;
+}
+
+/* img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+ul { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+section {
+  display: block;
+  position: relative;
+  padding: 50px 0;
+  width: 100%;
+}
+.nav-stacked {
+    text-align: right;
+}
+
