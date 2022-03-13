@@ -609,7 +609,7 @@ a:active {
   font-size: 16px;
   line-height: 150%;
   color: #61616B;
-  margin-right: 85px;
+  margin-right: 50px; 
   margin-bottom: 70px;
 }
 
@@ -672,6 +672,11 @@ a:active {
   color: #61616B;
   padding: 10px 30px;
 }
+@media(max-width:1024px) { 
+  #sidebar li a {
+    text-align: left; 
+  }
+}
 @media(min-width:1200px) {
   #sidebar li a {
     font-size: 18px;
@@ -706,7 +711,12 @@ a:active {
   max-width: 100%;
   margin: 0 25px 160px 0;
 }
-
+@media (max-width: 1024px) {
+  #mainContent .image img {
+    max-width: 100%;
+    margin: 50px 25px 80px 50px; 
+  }
+}
 .bg-warning {
   background-color: #FF851B;
   padding: 10px 15px;
@@ -764,6 +774,11 @@ a:active {
     width: 22%;
   }
 }
+@media(max-width: 1024px) {
+  #leftCol {
+    width: 100%;
+  }
+}
 .ContentWrapper {
   background: #fff;
   padding: 35px 35px 35px 70px;
@@ -774,7 +789,12 @@ a:active {
 @media(min-width: 1100px) {
   .ContentWrapper { 
     width: 78%;
-    padding: 35px 35px 35px 128px;
+    padding: 35px 125px 35px 128px;
+  }
+}
+@media(max-width:1024px) {
+  .ContentWrapper { 
+    width: 100%; 
   }
 }
 .banner-image img {
@@ -853,4 +873,22 @@ a:active {
   padding: 15px 30px;
   margin: 30px 0;
   display: inline-block;
+}
+@media(max-width:575px) {
+  .header-content {
+    font-size: 20px;
+    line-height: 25px;
+}
+.ContentWrapper {
+  padding: 35px 35px 35px 40px;
+}
+.banner-title {
+  font-size: 20px;
+}
+.ContentWrapper h2 {
+  font-size: 20px;
+}
+.online-image {
+  max-width: 100%;
+}
 }
